@@ -119,11 +119,11 @@ Build a small portfolio website using only Bootstrap
 
 ## ✅ Submission Checklist
 
-- [ ] `index.html` with complete structure
-- [ ] `form.html` with inputs and validation
-- [ ] `style.css` applied correctly
-- [ ] Responsive behavior tested
-- [ ] Bootstrap components integrated
+- [✅] `index.html` with complete structure
+- [✅] `form.html` with inputs and validation
+- [✅] `style.css` applied correctly
+- [✅] Responsive behavior tested
+- [✅] Bootstrap components integrated
 
 ---
 
