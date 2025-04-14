@@ -1,0 +1,27 @@
+
+body{
+    background-color: aquamarine;
+    font-size: 1.5rem;
+    font-weight: none;
+}
+img{
+    width: 1000px;
+}
+.navbar{
+    display: inline;
+}
+
+@media screen and (max-width:450px) {
+    body{
+        max-width: 450px;
+        background-color: grey;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .navbar{
+        display: none;
+    }
+    img{
+        width: 300px;
+    }
+}
