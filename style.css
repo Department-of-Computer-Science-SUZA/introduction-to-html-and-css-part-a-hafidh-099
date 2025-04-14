@@ -1,0 +1,39 @@
+/* QN Difference between inline, internal, and external CSS
+inline css is inserted inside of html tag as attribute
+internal is inserted at top of html document but external css is writen external than linked to html seperately */
+
+/* Qn How are conflicting styles resolved?
+is solved by specify direct element we want to style */
+body{
+    background-color: rgb(134, 219, 219);
+}
+p{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+.radio{
+    background-color: rgb(174, 140, 205);
+}
+.inpt{
+    background:linear-gradient(to right,orange,rgb(162, 122, 47));
+    padding: 20px;
+    text-align: center;
+}
+section{
+    background-color: blanchedalmond;
+}
+.chckbox{
+    background-color: rgb(214, 189, 61);
+}
+.submit{
+    background-color: orange;
+    padding: 10px;
+}
+.submit:hover{
+    background-color: orangered;
+}
+.Qn{
+    color: gray;
+    letter-spacing: 5px;
+}

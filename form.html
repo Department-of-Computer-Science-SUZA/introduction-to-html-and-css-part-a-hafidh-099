@@ -2,31 +2,41 @@
 <html lang="en">
 <head>
     <title>My form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
+    <form action="" class="fom">
         <fieldset>
             <legend>Form ya usaili:</legend>
-            <p>name:<input type="text" name="Name"></p>
-            <p>Email:<input type="email" name="Email"></p>
-            <p>Password<input type="password" name="Password"></p>
-            <p>Male<input type="radio"></p><p>Female<input type="radio"></p>
-            <p>play fotball<input type="checkbox"></p>
-            <p>Eating<input type="checkbox"></p>
-            <p>coding<input type="checkbox"></p>
+            <div class="inpt">
+                <input type="file">
+                <p>name:<input type="text" name="Name"></p>
+                <p>Email:<input type="email" name="Email"></p>
+                <p>Password<input type="password" name="Password"></p>
+            </div>
 
-            <select name="counrty">
+            <div class="radio">
+                <p>Male<input type="radio" ></p>
+                <p>Female<input type="radio"></p>
+            </div>
+            <div class="chckbox">
+                <p>play fotball<input type="checkbox"></p>
+                <p>Eating<input type="checkbox"></p>
+                <p>coding<input type="checkbox"></p>
+            </div>
+
+            <select name="counrty" >
                 <option >Tanzania</option>
                 <option >Kenya</option>
                 <option >South Africa</option>
             </select>
             <br>
-            <input type="submit">
+            <input type="submit" class="submit">
         </fieldset>
     </form>
 
-    <p>GET is used to get data from server</p>
-    <p>POST is used to inter data or update data to server</p>
-    <p>if form field is empty it will be not submited</p>
+    <p class="Qn">GET is used to get data from server</p>
+    <p class="Qn">POST is used to inter data or update data to server</p>
+    <p class="Qn">if form field is empty it will be not submited</p>
 </body>
 </html>
